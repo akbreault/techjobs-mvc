@@ -27,6 +27,7 @@
         </div>
     </div>
 
+
     <div th:fragment="results">
         <p th:text=" 'Displaying ' + ${jobs.size()} + ' Jobs'"></p>
         <table class="job-listing" th:each="job : ${jobs}">
@@ -36,6 +37,7 @@
             </tr>
         </table>
     </div>
+
 
 </body>
 </html>
